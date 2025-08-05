@@ -4,10 +4,11 @@ This repository contains the completed tasks for Week 1 of the Web Development B
 
 ## Daily Progress:
 
-- **Day 1 HTML:** Created a personal profile page (`index.html`).
-- **Day 2 CSS:** Styled the profile page with modern colors and fonts (`index.css`, `common.css`).
-- **Day 3 JS:** Added a form with basic validation for name, email, and phone (`form.html`, `form.css`, `script.js`).
-- **Day 4 JS:** Developed a simple calculator application (`calculator.html`, `calculator.css`, `calculator.js`).
+- **Day 1 (30/7/2025) HTML:** Created a personal profile page (`index.html`).
+- **Day 2 (31/7/2025) CSS:** Styled the profile page with modern colors and fonts (`index.css`, `common.css`).
+- **Day 3 (1/8/2025) JS:** Added a form with basic validation for name, email, and phone (`form.html`, `form.css`, `script.js`).
+- **Day 4 (2/8/2025) JS:** Developed a simple calculator application (`calculator.html`, `calculator.css`, `calculator.js`).
+- **Day 5 (3/8/2025) Git & GitHub:** Pushed the project to GitHub, demonstrating version control and collaboration skills.
 
 ## Project Components:
 
