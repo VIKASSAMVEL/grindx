@@ -1,0 +1,63 @@
+/* Styles specific to form.html */
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: #2a2a4a;
+    color: var(--text-color);
+    font-size: 1em;
+}
+
+#contact-form input[type="text"]:focus,
+#contact-form input[type="email"]:focus,
+#contact-form input[type="tel"]:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 5px rgba(233, 69, 96, 0.5);
+}
+
+#contact-form button {
+    padding: 15px 25px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #c73a52;
+}
+
+#form-messages p {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#form-messages p[style*="color: red"] {
+    background-color: rgba(255, 0, 0, 0.2);
+    border: 1px solid red;
+}
+
+#form-messages p[style*="color: green"] {
+    background-color: rgba(0, 255, 0, 0.2);
+    border: 1px solid green;
+}
